@@ -36,3 +36,87 @@ Buying gifts after arrival
 а затем оставшиеся подарки опять асинхронно.
 
 Если на какой-то остановке не можем купить подарки (они закончились или недостаточно времени на покупку), выводить строки о начале покупок и об отправлении от остановки, но без указания покупок.
+Пример 1
+Ввод	Вывод
+7 6
+9 8
+6 7
+
+a 2 2
+b 3 1
+c 3 2
+d 4 2
+e 1 0
+
+Buying gifts at 1 stop
+Buy d
+Buy e
+Got e
+Got d
+Arrive from 1 stop
+Buying gifts at 2 stop
+Buy c
+Buy a
+Got c
+Got a
+Arrive from 2 stop
+Buying gifts at 3 stop
+Buy b
+Got b
+Arrive from 3 stop
+Пример 2
+Ввод	Вывод
+7 6
+11 2
+7 4
+
+I 4 2
+J 3 0
+L 0 1
+
+Buying gifts at 1 stop
+Buy I
+Buy L
+Got L
+Got I
+Arrive from 1 stop
+Buying gifts at 2 stop
+Buy J
+Got J
+Arrive from 2 stop
+Buying gifts at 3 stop
+Arrive from 3 stop
+Пример 3
+Ввод	Вывод
+6 2
+3 2
+3 10
+
+K 5 1
+M 3 0
+A 4 3
+C 4 0
+R 5 2
+T 2 1
+
+Buying gifts at 1 stop
+Buy K
+Got K
+Arrive from 1 stop
+Buying gifts at 2 stop
+Buy M
+Got M
+Arrive from 2 stop
+Buying gifts at 3 stop
+Buy T
+Got T
+Arrive from 3 stop
+Buying gifts after arrival
+Buy A
+Buy C
+Buy R
+Got C
+Got A
+Got R
+Примечания
+Хотя бы один подарок нужно купить в пути.
